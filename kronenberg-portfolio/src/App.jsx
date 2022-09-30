@@ -31,9 +31,9 @@ function App(){
 			<button
 				type="button"
 				onClick={handleThemeSwitch}
-				className="fixed z-10 right-2 top-2 h-10 px-10 m-4 transition-colors duration-150 rounded-lg focus:shadow-outline bg-transparent text-lg p-1"
+				className="fixed z-10 right-2 text-4xl top-2 h-10 px-10 m-4 transition-colors duration-150 rounded-lg focus:shadow-outline bg-transparent p-1"
 			>
-				{theme === 'dark' ? '🌙' : '🌞'}
+				{theme === 'dark' ? '🌟' : '🌞'}
 			</button>
 			<div className="bg-white dark:bg-custom min-h-screen ">
 				<div className="max-w-5xl w-11/12 mx-auto">
