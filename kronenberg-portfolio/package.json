@@ -2,7 +2,23 @@
   "name": "kronenberg-portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "vite.config.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a21ponkr/kronenberg-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a21ponkr/kronenberg-portfolio/issues"
+  },
+  "homepage": "https://github.com/a21ponkr/kronenberg-portfolio#readme",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -16,13 +32,6 @@
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8",
     "vite": "^3.1.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "author": "",
-  "license": "ISC"
+  }
+
 }

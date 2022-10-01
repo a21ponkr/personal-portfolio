@@ -9,7 +9,9 @@ function WhoamiItem({ title, icon, description }) {
 			<h1 className="font-semibold text-lg text-white dark:text-white mb-1">
 				{title}
 			</h1>
-			<p className="text-md text-white dark:text-white">{description}</p>
+			<p className="text-md text-white dark:text-white">
+				{description}
+			</p>
 		</div>
 	);
 }
