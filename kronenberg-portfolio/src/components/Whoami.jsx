@@ -9,13 +9,17 @@ function Whoami() {
 			<SectionTitle>✨ Who I Am ✨</SectionTitle>
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 				{whoami.map(whoami => (
+					
 					<WhoamiItem
-						key={whoami.title}
+						key={whoami.key}
 						title={whoami.title}
 						icon={whoami.icon}
 						description={whoami.description}
 					/>
+
+				
 				))}
+				
 			</div>
 		</div>
 	);
