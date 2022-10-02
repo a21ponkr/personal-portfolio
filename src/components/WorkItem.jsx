@@ -13,15 +13,15 @@ function WorkItem({ imgUrl, title, tech, workUrl }) {
 				alt="work"
 				className="w-full h-36 md:h-48 object-cover"
 			/>
-			<div className="w-full p-5 text-gray-900 dark:text-gray-300">
+			<div className="w-full p-5 text-gray-300 bg-gray-800">
 				<h3 className="text-lg md:text-xl mb-2 md:mb-3 font-semibold">
 					{title}
 				</h3>
-				<p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm ">
+				<p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm">
 					{tech.map(item => (
 						<span
 							key={item}
-							className="inline-block px-2 py-1 bg-gradient-to-r from-violet-500 to-fuchsia-700 dark:bg-gradient-to-r from-violet-500 to-fuchsia-700 rounded-md"
+							className="inline-block px-2 py-1 bg-gradient-to-r from-violet-500 to-fuchsia-700 rounded-md"
 						>
 							{item}
 						</span>
