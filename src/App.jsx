@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import HeroSection from './components/HeroSection';
 import Whoami from './components/Whoami';
+import Works from './components/Works';
 
 
 function App(){
@@ -37,8 +38,9 @@ function App(){
 			</button>
 			<div className="bg-white dark:bg-custom min-h-screen ">
 				<div className="max-w-5xl w-11/12 mx-auto">
-					<HeroSection />
-					<Whoami />
+					<HeroSection></HeroSection>
+					<Whoami></Whoami>
+					<Works></Works>
 				</div>
 			</div>
 		</>
