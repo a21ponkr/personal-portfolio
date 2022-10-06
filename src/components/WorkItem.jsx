@@ -6,18 +6,18 @@ function WorkItem({ imgUrl, title, tech, workUrl }) {
 			href={workUrl}
 			target="_blank"
 			rel="noreferrer"
-			className="bg-slate-300 dark:bg-slate-800 rounded-lg overflow-hidden"
+			className="bg-slate-300 rounded-md overflow-hidden"
 		>
 			<img
 				src={imgUrl}
 				alt="work"
 				className="w-full h-36 md:h-48 object-cover"
 			/>
-			<div className="w-full p-5 text-gray-300 bg-gray-800">
+			<div className="w-full p-3 text-gray-300 bg-gray-900">
 				<h3 className="text-lg md:text-xl mb-2 md:mb-3 font-semibold">
 					{title}
 				</h3>
-				<p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm">
+				<p className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
 					{tech.map(item => (
 						<span
 							key={item}

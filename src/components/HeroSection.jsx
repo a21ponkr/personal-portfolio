@@ -12,7 +12,7 @@ function HeroSection() {
 					Pontus Kronenberg
 				</h1>
 				<p className="text-md md:text-xl max-w-xl mb-3 text-gray-300">
-					Hello! My name is Pontus Kronenberg and I am currently studying my second year of Computer Science. Thanks for visiting my portfolio! 😎
+					Hello <p className="animate-wave inline-block">👋</p> My name is Pontus Kronenberg and I am currently studying my second year of Computer Science. <a href="#" className="text-sky-500 text-sm md:text-sm hover:text-sky-100 font-bold">Know more about me!</a>
 					
 					{' '}
 				</p>
