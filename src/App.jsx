@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import HeroSection from './components/HeroSection';
 import Whoami from './components/Whoami';
 import Works from './components/Works';
+import Tools from './components/Tools';
 
 
 function App(){
@@ -40,6 +41,7 @@ function App(){
 				<div className="max-w-5xl w-11/12 mx-auto">
 					<HeroSection></HeroSection>
 					<Whoami></Whoami>
+					<Tools></Tools>
 					<Works></Works>
 				</div>
 			</div>
