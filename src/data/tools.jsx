@@ -8,42 +8,34 @@ import { CgCPlusPlus } from 'react-icons/cg';
 export default [
     {
         key: 'HTML',
-        title: 'HTML',
-        icon: <AiFillHtml5 className='w-full h-full' />,
+        icon: <AiFillHtml5 size='3rem'/>,
     },
     {
         key: 'CSS',
-        title: 'CSS',
-        icon: <SiCss3 className='w-full h-full' />,
+        icon: <SiCss3 size='3rem' />,
     },
     {
         key: 'JavaScript',
-        title: 'JavaScript',
-        icon: <SiJavascript className='w-full h-full' />,
+        icon: <SiJavascript size='3rem' />,
     },
     {
         key: 'ReactJS',
-        title: 'ReactJS',
-        icon: <DiReact className='w-full h-full' />,
+        icon: <DiReact size='3rem' />,
     },
     {
         key: 'python',
-        title: 'Python',
-        icon: <FaPython className='w-full h-full' />,
+        icon: <FaPython size='3rem' />,
     },
     {
         key: 'tailwindcss',
-        title: 'tailwindcss',
-        icon: <TbBrandTailwind className='w-full h-full' />,
+        icon: <TbBrandTailwind size='3rem' />,
     },
     {
         key: 'C++',
-        title: 'C++',
-        icon: <CgCPlusPlus className='w-full h-full' />,
+        icon: <CgCPlusPlus size='3rem' />,
     },
     {
         key: 'Java',
-        title: 'Java',
-        icon: <DiJava className='w-full h-full' />,
+        icon: <DiJava size='3rem' />,
     },
 ]
