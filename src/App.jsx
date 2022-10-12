@@ -38,8 +38,8 @@ function App(){
 			>
 				{theme === 'dark' ? '🌟' : '🌞'}
 			</button> */}
-			<div className="bg-black min-h-screen ">
-				<div className="max-w-5xl w-11/12 mx-auto">
+			<div className="bg-black min-h-screen">
+				<div className="max-w-6xl w-11/12 mx-auto">
 					<Navbar></Navbar>
 					<HeroSection></HeroSection>
 					<Whoami></Whoami>

@@ -1,13 +1,20 @@
 import React from 'react';
 
-function ToolsItem({ title, icon }) {
+function NavbarItems({ icon, navbarUrl }) {
 	return (
-		<div className="flex flex-wrap">
+
+    <a
+        href={navbarUrl}
+        target="_blank"
+        rel="noreferrer"
+    >
+		<div className="flex flex-wrap space-x-5 place-content-center pb-10">
 			<div className=" text-white">
 				{icon}
 			</div>
 		</div>
+    </a>
 	);
 }
 
-export default ToolsItem;
+export default NavbarItems;

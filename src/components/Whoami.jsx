@@ -15,6 +15,7 @@ function Whoami() {
 						title={whoami.title}
 						icon={whoami.icon}
 						description={whoami.description}
+						whoamiUrl={whoami.whoamiUrl}
 					/>
 
 				

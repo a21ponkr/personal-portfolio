@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionTitle from './SectionTitle';
 import navbar from '../data/navbar';
-import NavbarItems from './ToolsItem';
+import NavbarItems from './NavbarItems';
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
 
 function Navbar() {
@@ -13,6 +13,7 @@ function Navbar() {
 					<NavbarItems
 						key={navbar.key}
 						icon={navbar.icon}
+                        navbarUrl={navbar.navbarUrl}
 					/>
 				))}
 				

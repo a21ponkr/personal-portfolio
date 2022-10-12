@@ -6,20 +6,23 @@ export default [
     {
         key: 'graphicdesigner',
         title: 'Graphic Designer',
-        icon: <FaPaintBrush className='w-full h-full ' />,
+        icon: <FaPaintBrush className='w-full h-full' />,
         description: 'Check out my Behance!',
+        whoamiUrl: '#',
     },
     {
         key: 'front-end',
         title: 'Front-End Web Developer',
         icon: <BsCodeSlash className='w-full h-full' />,
         description: 'Check out my Github!',
+        whoamiUrl: '#',
     },
     {
         key: 'photographer',
         title: 'Photographer',
         icon: <AiOutlineCamera className='w-full h-full' />,
         description: 'Check out my Instagram!',
+        whoamiUrl: '#',
     }
     
 ]

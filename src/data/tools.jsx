@@ -22,6 +22,6 @@ export default [
     },
     {
         key: 'tailwindcss',
-        icon: <TbBrandTailwind size='4rem'/>,
+        icon: <TbBrandTailwind size='4rem' />,
     },
 ]

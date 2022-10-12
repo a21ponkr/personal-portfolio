@@ -6,13 +6,16 @@ export default [
     {
         key: 'github',
         icon: <AiFillGithub size='2rem'/>,
+        navbarUrl: '#',
     },
     {
         key: 'linkedin',
         icon: <BsLinkedin size='2rem' />,
+        navbarUrl: '#',
     },
     {
         key: 'email',
         icon: <AiOutlineMail size='2rem' />,
+        navbarUrl: '#',
     },
 ]
