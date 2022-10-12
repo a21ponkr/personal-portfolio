@@ -3,19 +3,15 @@ import logo from '../myself.jpg';
 
 function HeroSection() {
 	return (
-		<div id="hero" className="flex items-center justify-center flex-col py-20">
+		<div id="hero" className="flex items-center justify-center flex-col pb-20">
 			<div className="object-center">
-			<img className="rounded-full border-dashed border-2 border-sky-500 " src={logo} width="200" height="auto" />
+			<img className="rounded-full border-dashed border-2 border-white " src={logo} width="200" height="auto" />
 			</div>
 			<div className="text-center">
-				<h1 className="text-2xl md:text-4xl mb-1 md:mb-3 text-sky-500 font-semibold dark: text-sky">
+				<h1 className="text-8xl md:text-8xl mb-1 md:mb-3 text-white font-semibold pt-20 font-aesthetic">
 					Pontus Kronenberg
 				</h1>
-				<p className="text-md md:text-xl max-w-xl mb-3 text-gray-300">
-					Hello <p className="animate-wave inline-block">👋</p> My name is Pontus Kronenberg and I am currently studying my second year of Computer Science. <a href="#" className="text-sky-500 text-sm md:text-sm hover:text-sky-100 font-bold">Know more about me!</a>
-					
-					{' '}
-				</p>
+				<h4 className="text-md md:text-2xl text-white">Hello <p className="animate-wave inline-block">👋</p> My name is Pontus Kronenberg and I am currently studying my second year of Computer Science.</h4>
 				{/* <a
 					href="#projects"
 					className="hover:-translate-y-0.5 transform transition inline-block shadow-xl shadow-fuchsia-500/25 px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-violet-700 to-fuchsia-700 md:text-md "

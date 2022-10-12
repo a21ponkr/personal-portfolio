@@ -23,8 +23,13 @@ module.exports = {
       },
       animation: {
         wave: 'wave 1.5s infinite'
-      }
+      },
+
+      fontFamily: {
+        'aesthetic': ['aesthetic'],
+    },
     }
+    
   },
   plugins: [],
 }
